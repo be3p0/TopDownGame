@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
 {
     public Camera mainCamera;
     public int layer = 8;
-    public GameObject moveIcon;
     public float runSpeed = 10f;
     Animator animator;
     NavMeshAgent myNavMesh;
